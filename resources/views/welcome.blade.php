@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Man Aviation</title>
@@ -9,8 +10,21 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="{{   URL::asset('/css/bootstrap.min.css')  }}" />
+
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="{{   URL::asset('/css/style.css')  }}" />
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
         <!-- Styles -->
-        <style>
+        <!-- <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -61,31 +75,125 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> -->
+        
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Man Aviation
-                </div>
-
-                <div class="links">
-                    <a href="#">Coming Soon</a>
+        <div id="booking" class="section">
+            <div class="section-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="booking-cta">
+                                <h1>Man Aviation</h1>
+                                <p>Fly for Everyone</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <div class="booking-form">
+                                <form>
+                                    <div class="form-group">
+                                        <div class="form-checkbox">
+                                            <label for="one-way">
+                                                <input type="radio" id="one-way" name="flight-type" checked>
+                                                <span></span>One way
+                                            </label>
+                                            <label for="roundtrip">
+                                                <input type="radio" id="roundtrip" name="flight-type">
+                                                <span></span>Roundtrip
+                                            </label>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Flying from</span>
+                                                <!-- <input class="form-control" type="text" placeholder="City or airport"> -->
+                                                <select class="form-control">
+                                                    <option>Kuala Lumpur (KUL)</option>
+                                                    <option>Jakarta (CGK)</option>
+                                                    <option>Surabaya (SUB)</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Flying to</span>
+                                                <!-- <input class="form-control" type="text" placeholder="City or airport"> -->
+                                                <select class="form-control">
+                                                    <option>Jakarta (CGK)</option>
+                                                    <option>Kuala Lumpur (KUL)</option>
+                                                    <option>Surabaya (SUB)</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Departing</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Returning</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <span class="form-label">No. of Passengers</span>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>10</option>
+                                                    <option>50</option>
+                                                    <option>100</option>
+                                                    <option>200</option>
+                                                    <option>> 200</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span class="form-label">Children (0-17)</span>
+                                                <select class="form-control">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div> -->
+                                        <!-- <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span class="form-label">Travel class</span>
+                                                <select class="form-control">
+                                                    <option>Economy class</option>
+                                                    <option>Business class</option>
+                                                    <option>First class</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="form-btn">
+                                        <button class="submit-btn">Coming Soon</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
