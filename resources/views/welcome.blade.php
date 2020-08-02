@@ -7,13 +7,9 @@
 
         <title>Man Aviation</title>
         
-        <!-- Fonts -->
+        <!-- Styles -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Bootstrap -->
         <link type="text/css" rel="stylesheet" href="{{   URL::asset('/css/bootstrap.min.css')  }}" />
-
-        <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="{{   URL::asset('/css/style.css')  }}" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
