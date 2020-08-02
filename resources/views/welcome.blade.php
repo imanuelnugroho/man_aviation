@@ -129,6 +129,14 @@
                                             </div>
                                         </div> -->
                                     </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <span class="form-label">Email</span>
+                                                <input class="form-control" type="email" required>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="form-btn">
                                         <button class="submit-btn">Coming Soon</button>
                                     </div>
