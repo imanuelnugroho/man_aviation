@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Man Aviation</title>
-
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -86,7 +86,7 @@
                         <div class="col-md-4">
                             <div class="booking-cta">
                                 <h1>Man Aviation</h1>
-                                <p>Fly for Everyone</p>
+                                <p>&nbsp;Fly for Everyone</p>
                             </div>
                         </div>
                         <div class="col-md-7 col-md-offset-1">
