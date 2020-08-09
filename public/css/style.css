@@ -126,7 +126,6 @@ body {
 
 .booking-form .form-checkbox label {
 	position: relative;
-	padding-top: 4px;
 	padding-left: 30px;
 	font-weight: 700;
 	color: #191a1e;
@@ -139,7 +138,6 @@ body {
 .booking-form .form-checkbox input+span {
 	position: absolute;
 	left: 2px;
-	top: 4px;
 	width: 20px;
 	height: 20px;
 	background: #fff;
@@ -185,7 +183,9 @@ body {
 }
 
 .booking-cta {
-	margin-top: 45px;
+	margin-top: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: rgba(255,255,255,0.2);
 	text-align: center;
 }
