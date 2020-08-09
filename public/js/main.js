@@ -7,7 +7,7 @@ var columns = [
     {id: "sel", name: "#", field: "num", behavior: "select", cssClass: "cell-selection", width: 20, cannotTriggerInsert: true, resizable: false, selectable: false, excludeFromColumnPicker: true, sortable: true },
     {id: "fullname", name: "Full Name", field: "fullname", width: 130, minWidth: 130, cssClass: "cell-title", editor: Slick.Editors.Text, validator: requiredFieldValidator, resizable: true,sortable: true},
     {id: "passportno", name: "Passport No.", field: "passportno", width: 80, minWidth: 80, cssClass: "cell-title", editor: Slick.Editors.Text, validator: requiredFieldValidator, resizable: true, sortable: true},
-    {id: "issuingcountry", name: "Issuing Country", field: "issuingcountry", formatter: Select2Formatter, editor: Select2Editor, dataSource: countryIsoAndNameList},
+    {id: "issuingcountry", name: "Issuing Country", field: "issuingcountry", width: 80, minWidth: 80, formatter: Select2Formatter, editor: Select2Editor, dataSource: countryIsoAndNameList},
     {id: "dob", name: "Date of Birth", field: "dob", minWidth: 60, editor: Slick.Editors.Date, sortable: true},
     {id: "gender", name: "Gender", field: "gender", minWidth: 60, options: "Male,Female", editor: SelectCellEditor}
 ];
