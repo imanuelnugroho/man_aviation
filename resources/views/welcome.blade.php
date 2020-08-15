@@ -47,17 +47,29 @@
         <![endif]-->
     </head>
     <body>
+        <div class="section">
+            <div class="booking-cta">
+                <div class="booking-section">
+                    <img id="logo" title="Man Aviation" alt="Man Aviation" width="90px" height="90px" src="{{   URL::asset('/images/logo.png')  }}" />
+                </div>
+                <div class="booking-section">
+                    <h1 class="h1-adjust">Man Aviation</h1>
+                    <p class="p-adjust">&nbsp;Fly for Everyone</p>
+                </div>
+                <div class="booking-section right">
+                    <ul class="list-inline list-adjust">
+                        <li><a href="#">Flights</a></li>|
+                        <li><a href="#">Cargo</a></li>|
+                        <li><a href="#">MyTrip</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div id="booking" class="section">
             <div class="section-center">
-                <div class="container">
+                <div class="container cta-adjust">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="booking-cta">
-                                <h1>Man Aviation</h1>
-                                <p>&nbsp;Fly for Everyone</p>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-md-offset-1">
+                        <div class="col-md-4 col-adjust">
                             <div class="booking-form">
                                 <form>
                                     <div class="form-group">
@@ -160,6 +172,10 @@
                                         <button class="submit-btn">Coming Soon</button>
                                     </div>
                                 </form>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-adjust">
+                            <div class="banner">
                             </div>
                         </div>
                     </div>
