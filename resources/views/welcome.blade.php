@@ -75,7 +75,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <span class="form-label">Flying from</span>
+                                                <span class="form-label">From</span>
                                                 <!-- <input class="form-control" type="text" placeholder="City or airport"> -->
                                                 <select class="form-control">
                                                     <option>Kuala Lumpur (KUL)</option>
@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <span class="form-label">Flying to</span>
+                                                <span class="form-label">To</span>
                                                 <!-- <input class="form-control" type="text" placeholder="City or airport"> -->
                                                 <select class="form-control">
                                                     <option>Jakarta (CGK)</option>
@@ -101,13 +101,13 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <span class="form-label">Departing</span>
+                                                <span class="form-label">Departure Date</span>
                                                 <input class="form-control" type="date" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <span class="form-label">Returning</span>
+                                                <span class="form-label">Return Date</span>
                                                 <input class="form-control" type="date" required>
                                             </div>
                                         </div>
