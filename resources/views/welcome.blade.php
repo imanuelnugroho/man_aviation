@@ -53,15 +53,19 @@
                     <img id="logo" title="Man Aviation" alt="Man Aviation" width="90px" height="90px" src="{{   URL::asset('/images/logo.png')  }}" />
                 </div>
                 <div class="booking-section">
-                    <h1 class="h1-adjust">Man Aviation</h1>
-                    <p class="p-adjust">&nbsp;Fly for Everyone</p>
+                    <h1 class="h1-adjust">
+                        <span class="man">MAN</span>&nbsp;<span class="aviation">AVIATION</span>&nbsp;<span style="color:blue;">817326-T</span>
+                    </h1>
+                    <p class="p-adjust">&nbsp;owned by SAMAREKA SDN BHD</p>
                 </div>
                 <div class="booking-section right">
                     <ul class="list-inline list-adjust">
-                        <li><a href="#">Flights</a></li>|
-                        <li><a href="#">Cargo</a></li>|
+                        <li><a href="https://man-aviation.com/">Flights & Cargo</a></li>|
                         <li><a href="#">MyTrip</a></li>
                     </ul>
+                    <div class="h1-title">
+                        <span class="fly">Fly for Everyone</span>&nbsp;&nbsp;<span class="bon">Bon Voyage</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,7 +73,38 @@
             <div class="section-center">
                 <div class="container cta-adjust">
                     <div class="row">
+                        <div class="col-md-8 col-adjust">
+                            <div class="banner">
+                                <div class="sectiontitle">
+                                    Flight / Cargo Information
+                                    <span><a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml">
+                                        (open in new window)
+                                    </a></span>
+                                </div>
+                                <div class="flightschedule">
+                                    <iframe width="100%" height="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml?widget=true&amp;headers=false&amp;chrome=false">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-4 col-adjust">
+                            <div class="banner">
+                                <div class="sectiontitle">
+                                    Book now! 
+                                    <span><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDJmHMT4gywk-pBJsq-WYXBb_CjaQqbqOkyEz5uwg8R5EX9Q/viewform">
+                                        (open in new window)
+                                    </a></span>
+                                </div>
+                                <div class="submissionform">
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDJmHMT4gywk-pBJsq-WYXBb_CjaQqbqOkyEz5uwg8R5EX9Q/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">
+                                        Loading…
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="display:none;">
+                        <div class="col-md-12 col-adjust">
                             <div class="booking-form">
                                 <form>
                                     <div class="form-group">
@@ -172,10 +207,6 @@
                                         <button class="submit-btn">Coming Soon</button>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-adjust">
-                            <div class="banner">
                             </div>
                         </div>
                     </div>
