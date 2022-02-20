@@ -8,7 +8,7 @@ body {
 }
 
 .banner{
-	height:600px;
+	height:620px;
 	width:100%;
 	background-image: url(../images/small-logo.png);
 	background-repeat: no-repeat;
@@ -22,18 +22,19 @@ body {
 }
 
 .sectiontitle{
-	font-size: 40px;
+	font-size: 32px;
 	color: #464646;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
+	text-decoration: underline;
 }
 
 .flightschedule{
-	height:500px;
+	height:520px;
 }
 
 .submissionform{
-	height:520px;
+	height:530px;
 	width:100%;
 	background-image: url(../images/small-logo.png);
 	background-repeat: no-repeat;
@@ -84,7 +85,7 @@ body {
 	background-color: rgba(255,255,255,0.5);
 	display: flex;
 	text-align: center;
-	min-width:650px;
+	/* min-width:650px; */
 	padding-left:3%;
 }
 

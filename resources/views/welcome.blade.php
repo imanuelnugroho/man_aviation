@@ -76,13 +76,17 @@
                         <div class="col-md-8 col-adjust">
                             <div class="banner">
                                 <div class="sectiontitle">
-                                    Flight / Cargo Information
-                                    <span><a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml">
-                                        (open in new window)
-                                    </a></span>
+                                    Flight/Cargo Info
+                                    <p>
+                                        <span>
+                                            <a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml">
+                                                (open form below in new window)
+                                            </a>
+                                        </span>
+                                    </p>
                                 </div>
                                 <div class="flightschedule">
-                                    <iframe width="100%" height="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml?widget=true&amp;headers=false&amp;chrome=false">
+                                    <iframe width="100%" height="100%" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml?widget=true&amp;headers=false&amp;chrome=false">
                                     </iframe>
                                 </div>
                             </div>
@@ -90,10 +94,14 @@
                         <div class="col-md-4 col-adjust">
                             <div class="banner">
                                 <div class="sectiontitle">
-                                    Book now! 
-                                    <span><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDJmHMT4gywk-pBJsq-WYXBb_CjaQqbqOkyEz5uwg8R5EX9Q/viewform">
-                                        (open in new window)
-                                    </a></span>
+                                    Book now!
+                                    <p>
+                                        <span>
+                                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDJmHMT4gywk-pBJsq-WYXBb_CjaQqbqOkyEz5uwg8R5EX9Q/viewform">
+                                                (open form below in new window)
+                                            </a>
+                                        </span>
+                                    </p>
                                 </div>
                                 <div class="submissionform">
                                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDJmHMT4gywk-pBJsq-WYXBb_CjaQqbqOkyEz5uwg8R5EX9Q/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">
