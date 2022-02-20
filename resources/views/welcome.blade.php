@@ -73,8 +73,37 @@
             <div class="section-center">
                 <div class="container cta-adjust">
                     <div class="row">
+                        <div class="col-md-12 col-adjust" style="background-color: white;">
+                            <div class="col-md-4 col-adjust">
+                                <div class="link">
+                                    <a href="#schedule">
+                                        <img id="link1" title="Link to Schedule" alt="Link to Schedule" 
+                                        width="100%" height="280px" src="{{   URL::asset('/images/click-schedule.png')  }}" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-adjust">
+                                <div class="commercials">
+                                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVQC0IJGjyXRKVHhlzsk_woL-M6lPtvvLmW0ZBcXTd9CSDI97oe9Fp6pI0Tw3fSs-S_TnH7QmVi0GL/embed?start=true&loop=true&delayms=3000&rm=minimal" 
+                                        frameborder="0" width="100%" height="100%"
+                                        allowfullscreen="false" mozallowfullscreen="false" webkitallowfullscreen="false">
+                                        Loading…
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-adjust">
+                                <div class="link">
+                                    <a href="#inquiry">
+                                        <img id="link2" title="Link to Inquiry" alt="Link to Inquiry" 
+                                        width="100%" height="280px" src="{{   URL::asset('/images/click-inquiry.png')  }}" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-8 col-adjust">
-                            <div class="banner">
+                            <div id="schedule" class="banner">
                                 <div class="sectiontitle">
                                     Flight/Cargo Info
                                     <p>
@@ -87,12 +116,13 @@
                                 </div>
                                 <div class="flightschedule">
                                     <iframe width="100%" height="100%" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqV0fUMLd8BTTCGPDTSfIM3zRIpbFxLXKdQBliICtX0I8PN7ZmHqnE_D7xBBqUDjNI01wrg41QYSUa/pubhtml?widget=true&amp;headers=false&amp;chrome=false">
+                                        Loading…
                                     </iframe>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-adjust">
-                            <div class="banner">
+                            <div id="inquiry" class="banner">
                                 <div class="sectiontitle">
                                     Book now!
                                     <p>
@@ -109,6 +139,11 @@
                                     </iframe>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-adjust" style="background-color: white;">
+                            <div class="footer">Copyright © by SAMAREKA SDN BHD. All Rights reserved.</div>
                         </div>
                     </div>
                     <div class="row" style="display:none;">
