@@ -142,8 +142,31 @@
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-md-12 col-adjust">
+                            <div id="transport" class="transportbanner">
+                                <div class="sectiontitle">
+                                    Transport Info
+                                    <p>
+                                        <span>
+                                            <a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQC1vTWY_AJNVFrTWOQ32p8hwj7G8JjlsV1W8qQJgRXec44a4gLHLBCE3kuLpD06AekD9czaDLtvpVH/pubhtml">
+                                                (open form below in new window)
+                                            </a>
+                                        </span>
+                                        <br />
+                                        Transport reservation: <a href="tel:+60182045293">+60 18-204 5293</a>
+                                    </p>
+                                </div>
+                                <div class="transportschedule">
+                                    <iframe width="100%" height="100%" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQC1vTWY_AJNVFrTWOQ32p8hwj7G8JjlsV1W8qQJgRXec44a4gLHLBCE3kuLpD06AekD9czaDLtvpVH/pubhtml?widget=true&amp;headers=false&amp;chrome=false">
+                                        Loading...
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-12 col-adjust" style="background-color: white;">
-                            <div class="footer">Copyright © by SAMAREKA SDN BHD. All Rights reserved.</div>
+                            <div class="footer">Copyright © by SAMAREKA SDN BHD. All rights reserved.</div>
                         </div>
                     </div>
                     <div class="row" style="display:none;">
